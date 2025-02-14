@@ -1,0 +1,14 @@
+npm install -g @angular/cli
+
+ng new first-ng-app --dry-run
+ng new first-ng-app --inline-style --inline-template 
+
+cd .\first-ng-app\
+npm start
+
+ng g c header
+ng generate component header
+
+ng g c components/header
+
+ng g c home
